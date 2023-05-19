@@ -24,7 +24,6 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 import java.io.IOException;
-import java.io.Serializable;
 import java.net.URI;
 import java.util.List;
 import java.util.stream.Collectors;

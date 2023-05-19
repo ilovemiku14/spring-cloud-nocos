@@ -5,7 +5,10 @@ import com.springboot.cloud.sysadmin.facade.dto.GroupDTO;
 import com.springboot.cloud.sysadmin.facade.dto.PermissionDTO;
 import com.springboot.cloud.sysadmin.organization.entity.po.Resource;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 import java.util.Set;

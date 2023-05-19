@@ -8,7 +8,6 @@ import com.springboot.cloud.common.core.exception.SystemErrorType;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
-import lombok.Getter;
 
 import java.time.Instant;
 import java.time.ZonedDateTime;
